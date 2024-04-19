@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUIPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			  NavigationStack {
+				  RandomImage()
+			  }
         }
     }
 }
